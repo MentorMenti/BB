@@ -12426,3 +12426,28 @@ hr {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.slider-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20.4em);
+  gap: 50px;
+  padding: 10px;
+  place-content: center;
+  margin: 50px;
+ 
+}
+
+ /* Default button color */
+ .nav-link {
+  background-color: lightblue; /* Change this to your desired default color */
+margin-left: 30px;
+border-radius: 20px;
+}
+
+/* Active button color */
+.nav-link.active {
+background-color: blue; /* Change this to your desired active color */
+color: whitesmoke;
+
+}
